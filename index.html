@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iron Man - De Film</title>
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white">
+
+  <nav class="bg-red-600 p-4">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center space-x-4">        
+        <img src="ironman-logo.png" alt="Iron Man Logo" class="w-10 h-10">        
+        <a href="#" class="text-2xl sm:text-3xl font-extrabold text-white">Iron Man</a>
+      </div>
+  
+      
+      <div class="lg:hidden block">           
+        <label for="menu-toggle" class="text-white cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+        </label>
+      </div>
+  
+      
+      <div class="hidden lg:flex space-x-6">
+        <a href="#about" class="text-white hover:text-yellow-400 transition text-lg sm:text-base">Over de Film</a>
+        <a href="#cast" class="text-white hover:text-yellow-400 transition text-lg sm:text-base">Cast</a>
+        <a href="#trailer" class="text-white hover:text-yellow-400 transition text-lg sm:text-base">Trailer</a>
+        <a href="#contact" class="text-white hover:text-yellow-400 transition text-lg sm:text-base">Contact</a>
+      </div>
+    </div>       
+  </nav>
+  
+  
+  <section class="relative bg-cover bg-center h-screen" style="background-image: url('ironman-poster.jpg');">    
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center px-6">
+        <div class="text-center text-white max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-4xl">
+            <h1 class="text-6xl sm:text-5xl md:text-4xl lg:text-3xl xl:text-2xl font-extrabold mb-4 text-red-600">Iron Man</h1>
+            <p class="text-xl sm:text-lg md:text-base mb-8 text-yellow-400">De oorsprong van Tony Stark, de beroemde superheld</p>
+            <a href="#about" class="bg-yellow-400 text-black py-3 px-8 rounded-full text-lg sm:text-base hover:bg-yellow-500 transition">Meer Informatie</a>
+        </div>
+    </div>    
+</section>
+
+
+
+
+
+
+  <section id="about" class="py-16 bg-gray-800">
+    <div class="max-w-7xl mx-auto text-center grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="flex flex-col justify-between">
+        <h2 class="text-4xl font-semibold text-white mb-6">Over de Film</h2>
+        <p class="text-lg text-gray-400 mb-8">Iron Man is een Amerikaanse superheldenfilm uit 2008, gebaseerd op het Marvel Comics-personage Tony Stark. Het is de eerste film in het Marvel Cinematic Universe en introduceert een iconische held in de filmwereld.</p>
+        <p class="text-lg text-gray-400 mb-8">Tony Stark, gespeeld door Robert Downey Jr., wordt gevangen genomen door terroristen en gedwongen om een krachtig wapen te bouwen. Na zijn ontsnapping gebruikt hij zijn technologie om de wereld te beschermen.</p>
+  
+      
+        <p class="text-lg text-gray-400 mb-8">
+          *Iron Man* is een Amerikaanse superheldenfilm uit 2008, gebaseerd op het Marvel Comics-personage Tony Stark, gemaakt door schrijver Stan Lee, schrijver Larry Lieber, en tekenaar Don Heck. De film werd geregisseerd door Jon Favreau en is de eerste film in wat uiteindelijk het **Marvel Cinematic Universe (MCU)** zou worden, wat Iron Man een iconische rol in de popcultuur gaf.
+        </p>
+        <p class="text-lg text-gray-400 mb-8">
+          De film draait om **Tony Stark**, een briljante en excentrieke wapenmaker en miljardair. Hij is de CEO van Stark Industries, een van de grootste bedrijven voor de productie van wapens. Tony Stark is zelfverzekerd, charismatisch, en leeft een decadente levensstijl, maar zijn wereld wordt compleet op zijn kop gezet wanneer hij tijdens een zakenreis naar Afghanistan wordt ontvoerd door een terroristengroep genaamd de **Ten Rings**. Ze dwingen hem om een krachtige raket te bouwen, maar in plaats van zich te laten gebruiken voor het kwaad, maakt Stark gebruik van zijn technologische expertise en bouwt hij in plaats daarvan een geavanceerd harnas om te ontsnappen: de **Iron Man**-uitrusting.
+        </p>
+      </div>
+      <div class="flex justify-center items-center">
+        <img src="ironman-image.jpg" alt="Iron Man" class="rounded-lg shadow-lg max-w-full h-auto">
+      </div>
+    </div>
+</section>
+
+  <section id="cast" class="py-16 bg-gray-900">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-4xl sm:text-3xl md:text-2xl font-semibold text-white mb-6">Cast van Iron Man</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12"> 
+        <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105">
+          <img src="robert-downey-jr.jpg" alt="Robert Downey Jr." class="w-full h-72 object-cover">
+          <div class="p-6 text-white">            
+            <h3 class="text-2xl sm:text-xl md:text-lg font-bold mb-4 text-red-600">Robert Downey Jr.</h3>
+            <p class="text-lg sm:text-base md:text-sm text-yellow-400">Tony Stark / Iron Man</p>
+          </div>
+        </div>
+        
+        <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105">
+          <img src="gwyneth-paltrow.jpg" alt="Gwyneth Paltrow" class="w-full h-72 object-cover">
+          <div class="p-6 text-white">
+            <h3 class="text-2xl sm:text-xl md:text-lg font-bold mb-4 text-red-600">Gwyneth Paltrow</h3>
+            <p class="text-lg sm:text-base md:text-sm text-yellow-400">Virginia "Pepper" Potts</p>
+          </div>
+        </div>
+      
+        <div class="bg-gray-700 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105">
+          <img src="jeff-bridges.jpg" alt="Jeff Bridges" class="w-full h-72 object-cover">
+          <div class="p-6 text-white">
+            <h3 class="text-2xl sm:text-xl md:text-lg font-bold mb-4 text-red-600">Jeff Bridges</h3>
+            <p class="text-lg sm:text-base md:text-sm text-yellow-400">Obadiah Stane / Iron Monger</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="trailer" class="py-16 bg-gray-800">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="text-4xl sm:text-3xl md:text-2xl font-semibold text-white mb-6">Bekijk de Trailer</h2>
+      <div class="flex justify-center mb-8">
+        <iframe width="560" height="315" src="https://youtu.be/8ugaeA-nMTc?si=c1iG3XcKtDfjKPPq" title="Iron Man Trailer" frameborder="0" allowfullscreen class="rounded-lg shadow-lg"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 bg-gray-900 text-center text-white">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-4xl sm:text-3xl md:text-2xl font-semibold mb-6">Contacteer ons</h2>
+      <p class="text-lg sm:text-base md:text-sm mb-8">Heb je vragen of wil je meer weten over de film? Neem contact met ons op!</p>
+      <a href="mailto:kevin.driessens@hotmail.com" class="bg-red-600 text-white py-2 px-6 rounded-full hover:bg-red-700 transition text-lg sm:text-base md:text-sm">Stuur een E-mail</a>
+    </div>
+  </section>
+
+  <footer class="bg-red-600 text-white py-8">
+    <div class="max-w-7xl mx-auto text-center">
+      <p class="text-lg sm:text-base md:text-sm">Gemaakt door Driessens Kevin</p>
+    </div>
+  </footer>
+
+</body>
+</html>
